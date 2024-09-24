@@ -32,14 +32,14 @@ To get started, ensure that you have Python 3.7+ installed and install the requi
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### Core Dependencies:
 - **OpenCV**: For video processing and image manipulation.
 - **scikit-learn**: For training and running the SVM classifier.
 - **scikit-image**: For handling image transformations.
 - **numpy**: For numerical computations and array manipulations.
 - **PyYAML**: For reading the configuration file (`config.yaml`).
-```
+
 
 ## Setup
 
