@@ -1,0 +1,23 @@
+# Ignore data files (videos, images, etc.)
+data/*
+!data/mask_crop.png  # Exclude specific files from being ignored
+
+# Ignore model files
+models/*
+!models/.gitkeep  # Placeholder file to keep the empty folder tracked
+
+# Ignore any temporary files or directories
+*.log
+*.pyc
+__pycache__/
+.DS_Store
+.env
+*.pkl
+
+# Ignore Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore any temporary build files
+dist/
+build/
+
